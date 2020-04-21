@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A52490968806BAC22DC79F5 /* Pods_UniverseMatome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD21BAE352018F51E42C5C6 /* Pods_UniverseMatome.framework */; };
 		6E49626F243C3C1A00FB9190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49626E243C3C1A00FB9190 /* AppDelegate.swift */; };
 		6E496271243C3C1A00FB9190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E496270243C3C1A00FB9190 /* SceneDelegate.swift */; };
 		6E496273243C3C1A00FB9190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E496272243C3C1A00FB9190 /* ViewController.swift */; };
 		6E496276243C3C1A00FB9190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E496274243C3C1A00FB9190 /* Main.storyboard */; };
 		6E496278243C3C1D00FB9190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E496277243C3C1D00FB9190 /* Assets.xcassets */; };
 		6E49627B243C3C1D00FB9190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E496279243C3C1D00FB9190 /* LaunchScreen.storyboard */; };
+		6E496283243C46E100FB9190 /* Page1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E496282243C46E100FB9190 /* Page1TableViewController.swift */; };
+		6E496285243C533E00FB9190 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E496284243C533E00FB9190 /* NewsItems.swift */; };
+		6E5529CF244C3BBF00612EED /* Page2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529CE244C3BBF00612EED /* Page2TableViewController.swift */; };
+		6E5529D1244C3ED100612EED /* Page3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529D0244C3ED100612EED /* Page3TableViewController.swift */; };
+		6E5529D3244C3EF000612EED /* Page4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529D2244C3EF000612EED /* Page4TableViewController.swift */; };
+		6E5529D7244C400C00612EED /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529D6244C400C00612EED /* WebViewController.swift */; };
+		6E5529DD244C9D2E00612EED /* Page5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529DC244C9D2E00612EED /* Page5TableViewController.swift */; };
+		6E5529DF244C9F7B00612EED /* Page6TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5529DE244C9F7B00612EED /* Page6TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7294C6E455DFC9EDF42415 /* Pods-UniverseMatome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniverseMatome.release.xcconfig"; path = "Target Support Files/Pods-UniverseMatome/Pods-UniverseMatome.release.xcconfig"; sourceTree = "<group>"; };
+		2DD21BAE352018F51E42C5C6 /* Pods_UniverseMatome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniverseMatome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E49626B243C3C1A00FB9190 /* UniverseMatome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniverseMatome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E49626E243C3C1A00FB9190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E496270243C3C1A00FB9190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		6E496277243C3C1D00FB9190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E49627A243C3C1D00FB9190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E49627C243C3C1D00FB9190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E496282243C46E100FB9190 /* Page1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1TableViewController.swift; sourceTree = "<group>"; };
+		6E496284243C533E00FB9190 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		6E5529CE244C3BBF00612EED /* Page2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2TableViewController.swift; sourceTree = "<group>"; };
+		6E5529D0244C3ED100612EED /* Page3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3TableViewController.swift; sourceTree = "<group>"; };
+		6E5529D2244C3EF000612EED /* Page4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4TableViewController.swift; sourceTree = "<group>"; };
+		6E5529D6244C400C00612EED /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		6E5529DC244C9D2E00612EED /* Page5TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5TableViewController.swift; sourceTree = "<group>"; };
+		6E5529DE244C9F7B00612EED /* Page6TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6TableViewController.swift; sourceTree = "<group>"; };
+		CFB4B0AECD13171B47C82859 /* Pods-UniverseMatome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniverseMatome.debug.xcconfig"; path = "Target Support Files/Pods-UniverseMatome/Pods-UniverseMatome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A52490968806BAC22DC79F5 /* Pods_UniverseMatome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57FF6C69A981A5E20F150683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DD21BAE352018F51E42C5C6 /* Pods_UniverseMatome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E496262243C3C1A00FB9190 = {
 			isa = PBXGroup;
 			children = (
 				6E49626D243C3C1A00FB9190 /* UniverseMatome */,
 				6E49626C243C3C1A00FB9190 /* Products */,
+				DB1EABB7924F5C13B8A55A67 /* Pods */,
+				57FF6C69A981A5E20F150683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +88,31 @@
 			isa = PBXGroup;
 			children = (
 				6E49626E243C3C1A00FB9190 /* AppDelegate.swift */,
+				6E496284243C533E00FB9190 /* NewsItems.swift */,
 				6E496270243C3C1A00FB9190 /* SceneDelegate.swift */,
 				6E496272243C3C1A00FB9190 /* ViewController.swift */,
+				6E5529D6244C400C00612EED /* WebViewController.swift */,
+				6E496282243C46E100FB9190 /* Page1TableViewController.swift */,
+				6E5529CE244C3BBF00612EED /* Page2TableViewController.swift */,
+				6E5529D0244C3ED100612EED /* Page3TableViewController.swift */,
+				6E5529D2244C3EF000612EED /* Page4TableViewController.swift */,
+				6E5529DC244C9D2E00612EED /* Page5TableViewController.swift */,
+				6E5529DE244C9F7B00612EED /* Page6TableViewController.swift */,
 				6E496274243C3C1A00FB9190 /* Main.storyboard */,
 				6E496277243C3C1D00FB9190 /* Assets.xcassets */,
 				6E496279243C3C1D00FB9190 /* LaunchScreen.storyboard */,
 				6E49627C243C3C1D00FB9190 /* Info.plist */,
 			);
 			path = UniverseMatome;
+			sourceTree = "<group>";
+		};
+		DB1EABB7924F5C13B8A55A67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4B0AECD13171B47C82859 /* Pods-UniverseMatome.debug.xcconfig */,
+				0C7294C6E455DFC9EDF42415 /* Pods-UniverseMatome.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E49627F243C3C1D00FB9190 /* Build configuration list for PBXNativeTarget "UniverseMatome" */;
 			buildPhases = (
+				76685DF030CD73E980E0E918 /* [CP] Check Pods Manifest.lock */,
 				6E496267243C3C1A00FB9190 /* Sources */,
 				6E496268243C3C1A00FB9190 /* Frameworks */,
 				6E496269243C3C1A00FB9190 /* Resources */,
+				B4B964D84D6B9F2581A13F3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +183,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76685DF030CD73E980E0E918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniverseMatome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B964D84D6B9F2581A13F3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniverseMatome/Pods-UniverseMatome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniverseMatome/Pods-UniverseMatome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniverseMatome/Pods-UniverseMatome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E496267243C3C1A00FB9190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6E496273243C3C1A00FB9190 /* ViewController.swift in Sources */,
+				6E5529D3244C3EF000612EED /* Page4TableViewController.swift in Sources */,
+				6E5529DF244C9F7B00612EED /* Page6TableViewController.swift in Sources */,
+				6E5529DD244C9D2E00612EED /* Page5TableViewController.swift in Sources */,
+				6E5529D7244C400C00612EED /* WebViewController.swift in Sources */,
 				6E49626F243C3C1A00FB9190 /* AppDelegate.swift in Sources */,
+				6E496283243C46E100FB9190 /* Page1TableViewController.swift in Sources */,
 				6E496271243C3C1A00FB9190 /* SceneDelegate.swift in Sources */,
+				6E496285243C533E00FB9190 /* NewsItems.swift in Sources */,
+				6E5529D1244C3ED100612EED /* Page3TableViewController.swift in Sources */,
+				6E5529CF244C3BBF00612EED /* Page2TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		6E496280243C3C1D00FB9190 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB4B0AECD13171B47C82859 /* Pods-UniverseMatome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +395,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.window.UniverseMatome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6E496281243C3C1D00FB9190 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7294C6E455DFC9EDF42415 /* Pods-UniverseMatome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.window.UniverseMatome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
